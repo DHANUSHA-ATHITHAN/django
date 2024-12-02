@@ -27,5 +27,7 @@ urlpatterns = [
     path('delete/<int:id>',views.delete,name='delete'),
     path('register',views.register,name='register'),
     path('logs',views.logs,name='logs'),
+    path("getuser/",views.getuser,name="getuser"),
+    path('readuser/<int:id>',views.readuser,name='readuser'),
     
 ]
